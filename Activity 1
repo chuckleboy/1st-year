@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;	
+int main(){
+	int birth, year;
+	year = 2021;
+	cout<<"Enter birth year-> ";
+	cin>>birth;
+	year -= birth;
+	cout<<"Your age is "<<year;
+	return 0;
+}
